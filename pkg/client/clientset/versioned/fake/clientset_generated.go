@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "gitlab.com/nchc-ai/course-crd/pkg/client/clientset/versioned"
-	nchcv1alpha1 "gitlab.com/nchc-ai/course-crd/pkg/client/clientset/versioned/typed/coursecontroller/v1alpha1"
-	fakenchcv1alpha1 "gitlab.com/nchc-ai/course-crd/pkg/client/clientset/versioned/typed/coursecontroller/v1alpha1/fake"
+	clientset "github.com/nchc-ai/course-crd/pkg/client/clientset/versioned"
+	nchcv1alpha1 "github.com/nchc-ai/course-crd/pkg/client/clientset/versioned/typed/coursecontroller/v1alpha1"
+	fakenchcv1alpha1 "github.com/nchc-ai/course-crd/pkg/client/clientset/versioned/typed/coursecontroller/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

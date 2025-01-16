@@ -21,7 +21,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	samplecontroller "gitlab.com/nchc-ai/course-crd/pkg/apis/coursecontroller"
+	samplecontroller "github.com/nchc-ai/course-crd/pkg/apis/coursecontroller"
 )
 
 // SchemeGroupVersion is group version used to register these objects

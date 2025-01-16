@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "gitlab.com/nchc-ai/course-crd/pkg/client/clientset/versioned"
-	coursecontroller "gitlab.com/nchc-ai/course-crd/pkg/client/informers/externalversions/coursecontroller"
-	internalinterfaces "gitlab.com/nchc-ai/course-crd/pkg/client/informers/externalversions/internalinterfaces"
+	versioned "github.com/nchc-ai/course-crd/pkg/client/clientset/versioned"
+	coursecontroller "github.com/nchc-ai/course-crd/pkg/client/informers/externalversions/coursecontroller"
+	internalinterfaces "github.com/nchc-ai/course-crd/pkg/client/informers/externalversions/internalinterfaces"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

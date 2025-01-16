@@ -19,8 +19,8 @@ limitations under the License.
 package v1alpha1
 
 import (
-	v1alpha1 "gitlab.com/nchc-ai/course-crd/pkg/apis/coursecontroller/v1alpha1"
-	"gitlab.com/nchc-ai/course-crd/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/nchc-ai/course-crd/pkg/apis/coursecontroller/v1alpha1"
+	"github.com/nchc-ai/course-crd/pkg/client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

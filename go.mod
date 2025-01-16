@@ -1,4 +1,4 @@
-module gitlab.com/nchc-ai/course-crd
+module github.com/nchc-ai/course-crd
 
 go 1.16
 

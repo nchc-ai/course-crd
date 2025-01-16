@@ -11,6 +11,6 @@
 $ hack/update-codegen.sh
 
 # move generated from $GOPATH to project folder
-$ cp -r $GOPATH/src/gitlab.com/nchc-ai/course-crd/pkg/client pkg
-$ cp $GOPATH/src/gitlab.com/nchc-ai/course-crd/pkg/apis/coursecontroller/v1alpha1/zz_generated.deepcopy.go pkg/apis/coursecontroller/v1alpha1 
+$ cp -r $GOPATH/src/github.com/nchc-ai/course-crd/pkg/client pkg
+$ cp $GOPATH/src/github.com/nchc-ai/course-crd/pkg/apis/coursecontroller/v1alpha1/zz_generated.deepcopy.go pkg/apis/coursecontroller/v1alpha1 
 ```

@@ -21,7 +21,7 @@ package versioned
 import (
 	"fmt"
 
-	nchcv1alpha1 "gitlab.com/nchc-ai/course-crd/pkg/client/clientset/versioned/typed/coursecontroller/v1alpha1"
+	nchcv1alpha1 "github.com/nchc-ai/course-crd/pkg/client/clientset/versioned/typed/coursecontroller/v1alpha1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

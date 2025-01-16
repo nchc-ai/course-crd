@@ -19,8 +19,8 @@ limitations under the License.
 package coursecontroller
 
 import (
-	v1alpha1 "gitlab.com/nchc-ai/course-crd/pkg/client/informers/externalversions/coursecontroller/v1alpha1"
-	internalinterfaces "gitlab.com/nchc-ai/course-crd/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/nchc-ai/course-crd/pkg/client/informers/externalversions/coursecontroller/v1alpha1"
+	internalinterfaces "github.com/nchc-ai/course-crd/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.
